@@ -1,0 +1,21 @@
+paypal:
+  client:
+    id: AS7VWfW7Kcg9sDGfnKj1U2YPoLEdxEvLVncPQ9VeFdxYeaGdQ2rXQnjIJz7t3dOisDr6KwdZym6zTD8M
+    secret: EDcpcL5cqGO0aQfIbBxJDyhoCD_fRhChzELJYoqKGilqF6u4nhqgy0DTJddL4ys9T4uUJv4Pjs0HRMOg
+  mode: sandbox
+server:
+  port: 8001
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 8637089208
+    url: jdbc:postgresql://localhost:5432/LensKart
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  main:
+    banner-mode: 'off'
+jwt:
+  secret: secretkey123
